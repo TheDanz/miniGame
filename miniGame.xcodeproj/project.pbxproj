@@ -13,6 +13,8 @@
 		05BAB1F2275384C3006B02A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BAB1F0275384C3006B02A6 /* Main.storyboard */; };
 		05BAB1F4275384C5006B02A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BAB1F3275384C5006B02A6 /* Assets.xcassets */; };
 		05BAB1F7275384C5006B02A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05BAB1F5275384C5006B02A6 /* LaunchScreen.storyboard */; };
+		05BAB1FF275385D1006B02A6 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BAB1FE275385D1006B02A6 /* MyView.xib */; };
+		05BAB2012753860C006B02A6 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BAB2002753860C006B02A6 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		05BAB1F3275384C5006B02A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05BAB1F6275384C5006B02A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05BAB1F8275384C5006B02A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BAB1FE275385D1006B02A6 /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		05BAB2002753860C006B02A6 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				05BAB1EC275384C3006B02A6 /* SceneDelegate.swift */,
 				05BAB1EE275384C3006B02A6 /* ViewController.swift */,
 				05BAB1F0275384C3006B02A6 /* Main.storyboard */,
+				05BAB1FE275385D1006B02A6 /* MyView.xib */,
+				05BAB2002753860C006B02A6 /* MyView.swift */,
 				05BAB1F3275384C5006B02A6 /* Assets.xcassets */,
 				05BAB1F5275384C5006B02A6 /* LaunchScreen.storyboard */,
 				05BAB1F8275384C5006B02A6 /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BAB1FF275385D1006B02A6 /* MyView.xib in Resources */,
 				05BAB1F7275384C5006B02A6 /* LaunchScreen.storyboard in Resources */,
 				05BAB1F4275384C5006B02A6 /* Assets.xcassets in Resources */,
 				05BAB1F2275384C3006B02A6 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BAB2012753860C006B02A6 /* MyView.swift in Sources */,
 				05BAB1EF275384C3006B02A6 /* ViewController.swift in Sources */,
 				05BAB1EB275384C3006B02A6 /* AppDelegate.swift in Sources */,
 				05BAB1ED275384C3006B02A6 /* SceneDelegate.swift in Sources */,
